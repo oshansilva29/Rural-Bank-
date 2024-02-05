@@ -1,0 +1,59 @@
+table {
+  width: 100%;
+  border-collapse: collapse;
+  border: 1px solid #ccc;
+}
+
+th {
+  padding: 8px;
+  text-align: left;
+  background-color: #f2f2f2;
+  border-bottom: 1px solid #ccc;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+td {
+  padding: 8px;
+  border-bottom: 1px solid #ccc;
+}
+
+.credit-member-number,
+.membership-number,
+.date-of-loan,
+.amount-to-be-paid {
+  font-weight: bold;
+}
+
+tr:hover {
+  background-color: #ddd;
+}
+
+.delete-link,
+.update-link {
+  display: inline-block;
+  padding: 5px 10px;
+  background-color: #ff0000;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 3px;
+  margin-right: 5px;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.update-link {
+  background-color: #007bff;
+}
+
+.delete-link:hover,
+.update-link:hover {
+  background-color: #cc0000;
+}
+
+/* Apply custom styles for visited links */
+.delete-link:visited,
+.update-link:visited {
+  color: #fff;
+}

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Admin Information Form</title>
+</head>
+<body>
+    <h1>Admin Information</h1>
+    <form action="admin.php" method="POST">
+        <label for="adminName">Admin Name:</label>
+        <input type="text" id="adminName" name="adminName" ><br><br>
+
+        <label for="companyName">Company Name:</label>
+        <input type="text" id="companyName" name="companyName" ><br><br>
+
+        <label for="telephoneNumber">Telephone Number:</label>
+        <input type="text" id="telephoneNumber" name="telephoneNumber" pattern="[0-9]{10}" placeholder="1234567890" ><br><br>
+
+
+        <label for="usernme">UserName:</label>
+        <input type="text"  name="username" ><br><br>
+
+
+        <label for="password">Password:</label>
+        <input type="text" id="Password" name="Password"  placeholder="Password" ><br><br>
+        
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
